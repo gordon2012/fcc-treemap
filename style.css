@@ -1,0 +1,51 @@
+.card {
+  box-shadow: 4px 4px 16px 0px rgba(0, 0, 0, 0.75);
+}
+
+body,
+html {
+  background: #dbdbdb;
+  margin: 0;
+  height: 100%;
+  font-family: Lato, Helvetica, 'sans-serif';
+}
+
+.svg-wrap {
+  padding: 0 15px;
+  position: relative;
+}
+
+.svg-target {
+  display: flex;
+}
+
+svg {
+  background: whitesmoke;
+  margin: 0 auto;
+  overflow: visible;
+}
+
+#title {
+  margin: 0;
+  padding: 15px 0;
+  text-align: center;
+}
+
+/* Visualization */
+
+/* Tooltip */
+#tooltip {
+  text-align: center;
+  padding: 15px;
+  pointer-events: none;
+  position: absolute;
+  background: white;
+  opacity: 0;
+  max-width: 200px;
+}
+
+/* Box Text */
+tspan {
+  font-size: 0.7em;
+  pointer-events: none;
+}
